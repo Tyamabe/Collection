@@ -11,24 +11,24 @@ public class Task {
 	private LocalDate d;
 	private String action;
 	//コンストラクタ
-	public Task(LocalDate date, String action) {
+	public Task(LocalDate d, String action) {
 		this.d = d;
 		this.action = action;
 	}
 	//getter, setter作っておく
-	protected LocalDate getD() {
+	public LocalDate getD() {
 		return d;
 	}
 	
-	protected void setD(LocalDate d) {
+	public void setD(LocalDate d) {
 		this.d = d;
 	}
 	
-	protected String getAction() {
+	public String getAction() {
 		return action;
 	}
 	
-	protected void setAction(String action) {
+	public void setAction(String action) {
 		this.action = action;
 	}
 	
