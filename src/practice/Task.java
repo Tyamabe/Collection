@@ -14,20 +14,11 @@ public class Task {
 	}
 	//getter, setter作っておく
 	public LocalDate getDate() {
-		return date;
-	}
-	
-	public void setDate(LocalDate date) {
-		this.date = date;
+		return this.date;
 	}
 	
 	public String getAction() {
-		return action;
+		return this.action;
 	}
-	
-	public void setAction(String action) {
-		this.action = action;
-	}
-	
 	
 }
