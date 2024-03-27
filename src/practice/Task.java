@@ -12,7 +12,7 @@ public class Task {
 		this.date = date;
 		this.action = action;
 	}
-	//getter, setter作っておく
+	//getter作っておく
 	public LocalDate getDate() {
 		return this.date;
 	}
